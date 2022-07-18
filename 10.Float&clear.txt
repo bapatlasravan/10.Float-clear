@@ -1,0 +1,108 @@
+<html>
+<head><title>Float and clear</title>
+<link rel="stylesheet" href="D:\CSS\CSS external styles\h1.css">
+<link rel="stylesheet" href="D:\CSS\CSS external styles\h2.css">
+<style>
+#syntax{
+	background-color:cyan;
+}
+#note{
+	color:red;
+	background-color:yellow;
+}
+#one{
+	width:570px;
+	border:2px solid red;
+	float:left;
+	text-align:justify;
+	
+}
+#two{
+	width:570px;
+	border:2px dotted blue;
+	float:right;
+	text-align:justify;	
+}
+#three{
+clear:both;
+}
+</style>
+</head>
+<body>
+	<h1><center><u>Float Property</u></center></h1>
+		<p>The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.<br>
+			The float property can have one of the following values:<br>
+			<b>
+			<li>left - The element floats to the left of its container</li>
+			<li>right - The element floats to the right of its container</li>
+			<li>none - The element does not float (will be displayed just where it occurs in the text). This is default</li>
+			<li>inherit - The element inherits the float value of its parent</li></b>
+			In its simplest use, the float property can be used to wrap text around images.</p>
+		<p id="syntax">The syntax for the float property was:<br>
+				selector{<br>
+					float:left(or)right(or)none(or)inheriet;<br>
+					}<br>
+
+
+
+	<h2><u>Float left:</u></h2>
+		<p>BY using the float the text will move towards the left side</p>
+		
+		<h3><u>Example:</u></h3>
+	
+			<p id="one">Here text move towards left.Here text move towards left. 
+			Here text move towards left. Here text move towards left. Here text move towards left. 
+			Here text move towards left. Here text move towards left. Here text move towards left. 
+			Here text move towards left. Here text move towards left. Here text move towards left. 
+		        Here text move towards left. Here text move towards left. Here text move towards left. 
+			Here text move towards left. Here text move towards left. Here text move towards left. 
+			Here text move towards left. Here text move towards left. Here text move towards left. 
+			Here text move towards left. Here text move towards left. Here text move towards left. 
+			Here text move towards left. Here text move towards left. Here text move towards left. 
+			Here text move towards left. Here text move towards left. Here text move towards left.  
+			Here text move towards left. Here text move towards left. Here text move towards left.   
+			</p>
+
+
+	<h2 id="three"><u>Float Right:</u></h2>
+		<p>BY using the float the text will move towards the right side</p>
+		
+		<h3><u>Example:</u></h3>
+	
+			<p id="two">Here text move towards right.Here text move towards right. 
+			Here text move towards Right. Here text move towards Right. Here text move towards Right. 
+			Here text move towards Right. Here text move towards Right. Here text move towards Right. 
+			Here text move towards Right. Here text move towards Right. Here text move towards Right. 
+		        Here text move towards Right. Here text move towards Right. Here text move towards Right. 
+			Here text move towards Right. Here text move towards Right. Here text move towards Right. 
+			Here text move towards Right. Here text move towards Right. Here text move towards Right. 
+			Here text move towards Right. Here text move towards Right. Here text move towards Right. 
+			Here text move towards Right. Here text move towards Right. Here text move towards Right. 
+			Here text move towards Right. Here text move towards Right. Here text move towards Right.  
+			Here text move towards Right. Here text move towards Right. Here text move towards Right.   
+			</p>
+
+	<h2 id="three"><u>No Float:</u></h2>
+		<p>BY using the no float the text will be on default</p><hr><hr>
+
+
+
+
+
+	<h2 id="three"><u>Clear Property:</u></h2
+			<p>When we use the float property, and we want the next element below (not on right or left), we will have to use the clear property.
+			The clear property specifies what should happen with the element that is next to a floating element.
+			The clear property can have one of the following values:<br>
+				<b>
+				<li>none - The element is not pushed below left or right floated elements. This is default</li>
+				<li>left - The element is pushed below left floated elements</li>
+				<li>right - The element is pushed below right floated elements</li>
+				<li>both - The element is pushed below both left and right floated elements.</li>
+				<li>inherit - The element inherits the clear value from its parent.</li></p></b><hr><hr>
+
+
+
+
+
+</body>
+</html>
